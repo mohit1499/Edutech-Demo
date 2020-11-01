@@ -1,0 +1,169 @@
+.card{
+  border: 1px solid white;
+}
+.logo{
+  width: 200px;
+  height: auto;
+}
+.card-radius{
+  border-radius: 0px 30px 30px 0px;
+}
+.card-img{
+  height: 87px;
+}
+.card-title{
+  font-size: 15px;
+}
+.card-text{
+  font-size: 10px;
+}
+.solve{
+  font-size: 40px;
+  font-weight: bold;
+}
+.carousel-indicators li {
+  background-color: #999 !important;
+  background-color: rgba(70,70,70,.25) !important;
+}
+.carousel-indicators .active {
+  background-color: #444 !important;
+}
+.corousels{
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align:center;
+}
+.blue{
+      color: rgb(36, 38, 138);
+      font-weight: bold;
+  }
+
+  .main-subject{
+    height: 13rem;
+    text-align: center;
+  }
+  .main-subject .card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding:0;
+  }
+  .main-subject .card-img-top{
+      padding: 20px 20px 0 20px;
+  }
+  .subject{
+      height: 12rem;
+  }
+  .carousel-indicators {
+    bottom: -10px;
+  }
+  .carousel-inner {
+      margin: auto;
+  }
+  .tutordeck{
+      width: 850px;
+      margin-left: 60px;
+  }
+  .tutordeck-below {
+    margin-left: 160px;
+    width: 850px;
+  }
+  .doubts{
+      text-align: center;
+  }
+  .img-fluid{
+      width: 420px;
+  }
+  .tutorimage{
+      margin-top: 15px;
+      width: auto;
+  }
+  .tutortext{
+    font-size: small;
+  }
+    .tutorbody{
+      text-align: initial;
+      
+  }
+  .tutors{
+    max-width: 540px;
+  }
+  .board{
+    height: 13rem;
+  }
+ .heading{
+   font-weight: bolder;
+   color: rgb(185, 76, 76);
+  }
+  .student{
+    width: 950px; 
+    margin: auto;
+  }
+
+.nav-link{
+  font-family: sans-serif ;
+  font-weight: bolder;
+}
+
+.bookdeck{
+  width: 800px;text-align: center;margin: auto;
+}
+@media only screen and (max-width: 600px) {
+ 
+  .logo{
+    width: 170px;
+    height: auto;
+  }
+  .deck1{
+    text-align: center;
+  }
+  .card-img{
+    width: auto;
+    text-align: center;
+  }
+  .card-radius{
+    box-shadow: none;
+    width: 150px;
+    margin: auto;
+  }
+  
+  .main-subject{
+     height: auto;
+    width: auto; 
+    text-align: center;
+  }
+  .card-img{
+    width: 50%;
+    height: auto;
+  }
+  .subject{
+    height: auto;
+  }
+  .bookdeck1{
+    margin: auto;
+    padding: auto;
+    width: 60%;
+    height: 40%;
+  }
+  .tutordeck{
+    width: auto;
+    margin: 0;
+  }
+  .tutors{
+    width: autot;
+  }
+  .tutorimage{
+    width: 60%;
+    height: auto;
+  }
+  .tutordeck-below{
+    margin: 0;
+    width: auto;
+  }
+  .tutorbody{
+    text-align: center;
+  }
+  .student{
+    width: auto;
+  }
+ 
+}
