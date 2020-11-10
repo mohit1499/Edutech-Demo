@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .card{
   border: 1px solid white;
 }
@@ -16,6 +19,11 @@
 }
 .card-text{
   font-size: 10px;
+}
+.card-body{
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 10px;
 }
 .solve{
   font-size: 40px;
@@ -39,7 +47,7 @@
   }
 
   .main-subject{
-    height: 13rem;
+    height: 11rem;
     text-align: center;
   }
   .main-subject .card-body{
@@ -51,7 +59,7 @@
       padding: 20px 20px 0 20px;
   }
   .subject{
-      height: 12rem;
+      height: 10rem;
   }
   .carousel-indicators {
     bottom: -10px;
@@ -88,7 +96,7 @@
     max-width: 540px;
   }
   .board{
-    height: 13rem;
+    height: 10rem;
   }
  .heading{
    font-weight: bolder;
@@ -107,6 +115,17 @@
 .bookdeck{
   width: 800px;text-align: center;margin: auto;
 }
+.bookdeck1{
+  width: 700px;
+  text-align: center;
+  margin: auto;
+
+}
+.deck1 .card-body{
+  margin-top: 0;
+  margin-left: 7px;
+}
+
 @media only screen and (max-width: 600px) {
  
   .logo{
@@ -164,6 +183,9 @@
   }
   .student{
     width: auto;
+  }
+  .board{
+    height: 14rem;
   }
  
 }
